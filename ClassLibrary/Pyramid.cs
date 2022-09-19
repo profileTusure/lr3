@@ -52,6 +52,7 @@ namespace ClassLibrary
             return ($"Пирамида с площадью основания {Squere} и высотой {Height}. Объем: {Volume()}");
         }
 
+        // Имя фигуры
         public string Name() { return "Пирамида"; }
     }
 }
