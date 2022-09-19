@@ -42,6 +42,7 @@ namespace ClassLibrary
             return ($"Параллелепипед со сторонами {Side1}, {Side2} и {Side3}. Объем: {Volume()}");
         }
 
+        // Имя фигуры
         public string Name() { return "Параллелепипед"; }
     }
 }
