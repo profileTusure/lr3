@@ -39,6 +39,7 @@ namespace ClassLibrary
             return ($"Шар с радиусом {Radius}. Объем: {Volume()}");
         }
 
+        // Название фигуры
         public string Name() { return "Шар"; }
     }
 }
